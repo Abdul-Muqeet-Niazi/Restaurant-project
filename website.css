@@ -1,0 +1,304 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url(sofiapro-light.otf);
+}
+
+body {
+  font-family: "Sofia Pro";
+  /* background-image: linear-gradient(to right, #304352, #d7d2cc); */
+  background-color: white;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Sofia Pro";
+  margin-top: 1%;
+  margin-bottom: 1% !important;
+}
+.nav-side {
+  display: flex;
+  padding-left: 50px;
+  cursor: pointer;
+}
+.hover1:hover {
+    color: rgb(235, 215, 129);
+}
+.hover2:hover {
+    color: rgb(235, 215, 129);
+}
+.hover3:hover {
+    color: rgb(235, 215, 129);
+}
+.hover4:hover {
+    color: rgb(235, 215, 129);
+}
+.hover5:hover {
+    color: rgb(235, 215, 129);
+}
+.hover6:hover {
+    color: rgb(235, 215, 129);
+}
+.hover7:hover {
+    color: rgb(235, 215, 129);
+}
+
+.nav-link {
+  padding: 0% !important;
+}
+.nav-link:hover {
+    color: rgb(235, 215, 129) !important;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  font-family: "Sofia";
+}
+
+.logo:hover {
+  animation-name: logo-effect;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  color: rgb(235, 215, 129);
+}
+
+@keyframes logo-effect {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.account-anchor {
+  color: black !important;
+}
+
+.w-100 {
+    width: 50% !important;
+    height: 50% !important;
+}
+
+.home {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.home-paragraph {
+    width: 40%;
+    font-weight: 100;
+}
+
+.home-header {
+    margin-left: 13%;
+    font-weight: 200;
+}
+
+.our-header {
+    position: absolute;
+    margin-top: -4.8%;
+    font-family: "Sofia";
+    margin-left: 15%;
+    color: rgb(235, 215, 129);
+    z-index: -1;
+}
+
+.home-button {
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid rgb(235, 215, 129); ;
+    background-color: transparent;
+    margin-top: 1.5%;
+    margin-left: 13%;
+    text-align: center;
+}
+
+.home-button:hover {
+    background-color: rgb(235, 215, 129);
+    color: dimgray;
+    transition: all .5s ease-out;
+}
+
+.restaurant-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.line {
+    width: 80%;
+    margin-left: 8rem;
+    border-top: 1px solid black;
+}
+
+.restaurant-image {
+    width: 50%;
+    border-radius: 5px;
+    margin-left: -46% ;
+}
+
+.restaurant {
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -25%;
+}
+
+.restaurant-header {
+    margin-left: 25%;
+    font-weight: 200;
+}
+
+.our-restaurant-header {
+    position: absolute;
+    margin-top: -10.8%;
+    font-family: "Sofia";
+    margin-left: 35%;
+    color: rgb(235, 215, 129);
+    z-index: -1;
+}
+
+.restaurant-paragraph {
+    width: 90%;
+    font-weight: 100;
+}
+
+.restaurant-button{
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid rgb(235, 215, 129); ;
+    background-color: transparent;
+    margin-top: 1.5%;
+    margin-left: 26%;
+    text-align: center;
+}
+
+.restaurant-button:hover {
+    background-color: rgb(235, 215, 129);
+    color: dimgray;
+    transition: all .5s ease-out;
+}
+
+.deals-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: 47%;
+    width: 100%;
+}
+
+.deals {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: -30%;
+}
+
+.deals-header {
+    margin-left: 13%;
+    font-weight: 200;
+}
+
+.our-deals-header {
+    position: absolute;
+    margin-top: -4.8%;
+    font-family: "Sofia";
+    margin-left: 14.5%;
+    color: rgb(235, 215, 129);
+    z-index: -1;
+}
+
+.deals-paragraph {
+    width: 40%;
+    font-weight: 100;
+}
+
+.deals-button {
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid rgb(235, 215, 129); ;
+    background-color: transparent;
+    margin-top: 1.5%;
+    margin-left: 12%;
+    text-align: center;
+}
+
+.deals-button:hover {
+    background-color: rgb(235, 215, 129);
+    color: dimgray;
+    transition: all .5s ease-out;
+}
+
+.party-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.party-image {
+    width: 50%;
+    border-radius: 5px;
+    margin-left: -46% ;
+}
+
+.events {
+    position: absolute;
+    margin-left: 55%;
+    margin-top: -25%;
+}
+
+.events-header {
+    margin-left: 31%;
+    font-weight: 200;
+}
+
+.our-events-header {
+    position: absolute;
+    margin-top: -10.5%;
+    font-family: "Sofia";
+    margin-left: 35%;
+    color: rgb(235, 215, 129);
+    z-index: -1;
+}
+
+.events-paragraph{
+    width: 90%;
+    font-weight: 100;
+}
+
+.events-button {
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid rgb(235, 215, 129); ;
+    background-color: transparent;
+    margin-top: 1.5%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.events-button:hover {
+    background-color: rgb(235, 215, 129);
+    color: dimgray;
+    transition: all .5s ease-out;
+}

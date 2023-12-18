@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 229, 229);
+    font-family: "Poppins", "sans-serif";
+}
+
+#login-form {
+    display: grid;
+    justify-content: center;
+    height: 570px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 75%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.329);
+    padding: 5px 35px;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 115%;
+    background-color: rgba(197, 195, 197, 0.822);
+    border: none;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;    
+    font-weight: 300;
+    margin-left: -25px;
+    font-family: "Poppins", "sans-serif";
+}
+
+h1,h5 {
+    text-align: center;
+}
+
+label {
+    margin-left: -4.5%;
+}
+
+button {
+    background-color: rgba(128, 128, 128, 0.459);
+    width: 100%;
+    height: 150%;
+    font-family: "Poppins","sans-serif";
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(77, 76, 77, 0.822) ;
+    transition: all .5s;
+    transition-timing-function: ease-out;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+a:hover {
+    color: black;
+    background-color: rgba(196, 194, 196, 0.822) ;
+    transition: all .5s;
+    transition-timing-function: ease-out;
+}
+
+i {
+    text-align: center;
+    font-size: 35px;
+    width: 20%;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+i:hover {
+    color: rgb(59, 29, 29);
+    transition: all 1s ease-out;
+}
+
+img {
+    width: 64.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.329);
+}
+
+.login-image {
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.text-1 {
+    background-color: white;
+    border-radius: 3px;
+    width: 38.7%;
+    padding: 2%;
+    padding-bottom: 4%;
+    margin-left: 20%;
+}
+
+.img-2 {
+    width: 8%;
+    top: 11%;
+    right: 87%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
